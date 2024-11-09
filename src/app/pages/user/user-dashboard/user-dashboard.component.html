@@ -1,0 +1,30 @@
+<div class="bootstrap-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <app-sidebar-user></app-sidebar-user>
+      </div>
+
+      <div class="col-md-10">
+        <router-outlet></router-outlet>
+      </div>
+
+
+
+      <!-- <div *ngIf="quizzes.length > 0">
+        <h3>Quizzes for {{ userClass }}</h3>
+        <ul>
+          <li *ngFor="let quiz of quizzes">
+            {{ quiz.title }} - {{ quiz.description }}
+          </li>
+        </ul>
+      </div>
+      <div *ngIf="quizzes.length === 0">
+        <p>No quizzes available for {{ userClass }}</p>
+      </div>
+       -->
+
+
+    </div>
+  </div>
+</div>
